@@ -1,0 +1,68 @@
+{
+  "hospitals": [
+    {
+      "id": "123123",
+      "name": "VASUDEVA HOSPITAL",
+      "address": "KARIMNAGAR",
+      "doctor": "SRINIVAS",
+      "email": "srinvcas@gmail.com",
+      "password": "password",
+      "contact": "",
+      "staff": [],
+      "doctors": [
+        {
+          "name": "karunakar",
+          "specialization": "xxxx",
+          "contact": "0000000000"
+        },
+        {
+          "name": "vasavi",
+          "specialization": "abcd"
+        },
+        {
+          "name": "kavitha",
+          "specialization": "eye specialist"
+        }
+      ],
+      "services": [],
+      "medicalServices": []
+    },
+    {
+      "id": "112233",
+      "name": "BHADRAKALI",
+      "address": "KARIMNAGAR",
+      "doctor": "RAMCHANDAR",
+      "email": "bhadrakali@gmail.com",
+      "contact": "1231231231",
+      "staff": [],
+      "doctors": [
+        {
+          "name": "sidhartha",
+          "email": "xxx@gmail.com",
+          "contact": "999112233",
+          "department": "child care"
+        },
+        {
+          "name": "priyanka",
+          "email": "xxx@gmail.com",
+          "contact": "112233412",
+          "department": "gynic"
+        }
+      ],
+      "services": [],
+      "medicalServices": []
+    },
+    {
+      "id": "991199",
+      "name": "BHAEGAVA HOSPITAL",
+      "address": "JAGITYAL",
+      "doctor": "MAHATHI",
+      "email": "bhargavahospital@gmail.com",
+      "contact": "9912399123",
+      "staff": [],
+      "doctors": [],
+      "services": [],
+      "medicalServices": []
+    }
+  ]
+}

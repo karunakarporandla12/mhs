@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "5d56",
+      "uid": "MHS687217",
+      "firstName": "KARUNAKAR",
+      "lastName": "PORANDLA",
+      "fatherName": "SHANKARAIAJ",
+      "domOrAge": "60YRS",
+      "address": "12",
+      "flatNo": "12",
+      "apartmentName": "XXXX",
+      "area": "KAHDHFK",
+      "mandal": "Karimnagar",
+      "district": "Karimnagar",
+      "state": "Telangana",
+      "pin": "505001",
+      "aadhar": "374627367369",
+      "mobile": "1231231231"
+    },
+    {
+      "id": "3bfd",
+      "uid": "MHS683143",
+      "firstName": "ANIRUTH",
+      "lastName": "PORANDLA",
+      "fatherName": "KARUNAKAR",
+      "domOrAge": "12",
+      "address": "HYD",
+      "flatNo": "HYD",
+      "apartmentName": "HYD",
+      "area": "HYD",
+      "mandal": "HYD",
+      "district": "HYD",
+      "state": "TS",
+      "pin": "500090",
+      "aadhar": "123412341234",
+      "mobile": "9000990009"
+    }
+  ]
+}
