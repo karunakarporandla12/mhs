@@ -1,18 +1,10 @@
-const jsonServer = require('json-server');
-const path = require('path');
-
+const jsonServer = require("json-server");
 const server = jsonServer.create();
-const userRouter = jsonServer.router(path.join(__dirname, 'db.json'));
-const hospitalRouter = jsonServer.router(path.join(__dirname, 'hospital.json'));
+const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
-
-// Use different routes for each JSON file
-server.use('/users', userRouter);
-server.use('/hospitals', hospitalRouter); 
-
-const PORT = process.env.PORT || 10000;
-server.listen(PORT, () => {
-    console.log(`JSON Server is running on port ${PORT}`);
+server.use(router);
+server.listen(3000, () => {
+    console.log("JSON Server is running on port 3000");
 });
